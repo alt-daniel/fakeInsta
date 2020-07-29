@@ -8,7 +8,10 @@
             </div>
             <div class="col-4">
                 <div>
-                    <h3>{{ $post->user->username }}</h3>
+
+                    <div>
+                        <img src="{{ $post->user->profile->image }}" alt="" class="w-100">
+                    </div>
 
                     <p>{{ $post->caption }}</p>
                 </div>
