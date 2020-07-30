@@ -47,9 +47,7 @@ class User extends Authenticatable
             ]);
         });
     }
-
-
-
+    
 
     public function posts()
     {
